@@ -11,6 +11,9 @@ inputs:
   config:
     description: config path
     required: false
+  command:
+    description: octocov cli commands
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
